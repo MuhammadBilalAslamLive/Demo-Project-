@@ -1,0 +1,58 @@
+a:hover{
+    text-decoration: none;
+}
+#header
+{
+    color: white;
+    background: #e74c3c;
+}
+#logo
+{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    text-decoration: none;
+    display: block;
+}
+#menu li a:hover{
+    background: #c0392b;
+}
+
+
+#banner
+{
+    color: #fff;
+    background: url("../images/banner.jpg");
+    margin: 0;
+    padding: 0;
+}
+.banner-title{
+    padding: 1rem;
+}
+.banner-title h1{
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead{
+    color: #fff;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+
+}
